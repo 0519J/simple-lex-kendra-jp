@@ -11,7 +11,7 @@ import {
 import { Aspects } from 'aws-cdk-lib';
 import { AwsSolutionsChecks } from 'cdk-nag';
 
-process.env.overrideWarningsEnabled = 'false';
+process.env.overrideWarningsEnabled = 'true';
 
 const fetchLatestBotVersion = async (): Promise<number> => {
   try {
